@@ -32,5 +32,3 @@ class RedisBaseAdapter:
     def set(self, key, value):
         return self.client.set(key, value)
     
-
-tu
